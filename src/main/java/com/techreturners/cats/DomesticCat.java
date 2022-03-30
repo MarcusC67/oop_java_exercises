@@ -1,9 +1,10 @@
 package com.techreturners.cats;
 
-public class DomesticCat implements Cat {
+public class DomesticCat extends CatAbstract {
 
-    @Override
-    public boolean isAsleep() {
-        return false;
+    public DomesticCat() {
+        super("domestic", 25);
+
     }
+
 }
