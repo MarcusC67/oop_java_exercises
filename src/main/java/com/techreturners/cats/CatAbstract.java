@@ -26,6 +26,11 @@ public abstract class CatAbstract implements Cat{
       asleep = false;
    }
 
+   @Override
+   public String getSetting() {
+      return setting;
+   }
+
 
 
 }
