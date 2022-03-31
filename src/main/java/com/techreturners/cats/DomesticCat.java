@@ -1,5 +1,7 @@
 package com.techreturners.cats;
 
+import java.util.Random;
+
 public class DomesticCat extends CatAbstract {
 
     public DomesticCat() {
@@ -11,4 +13,5 @@ public class DomesticCat extends CatAbstract {
     public String eat() {
         return "Purrrrrrr";
     }
+
 }
