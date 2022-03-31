@@ -36,6 +36,7 @@ public abstract class CatAbstract implements Cat{
       return aveHeight;
    }
 
-
+   @Override
+   public abstract String eat();
 
 }

@@ -6,4 +6,8 @@ public class LionCat extends CatAbstract {
         super("wild", 1100);
     }
 
+    @Override
+    public String eat() {
+        return "Roar!!!!";
+    }
 }

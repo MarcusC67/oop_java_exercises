@@ -7,4 +7,8 @@ public class DomesticCat extends CatAbstract {
         super("domestic", 23);
     }
 
+    @Override
+    public String eat() {
+        return "Purrrrrrr";
+    }
 }
