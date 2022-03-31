@@ -31,6 +31,11 @@ public abstract class CatAbstract implements Cat{
       return setting;
    }
 
+   @Override
+   public int getAverageHeight() {
+      return aveHeight;
+   }
+
 
 
 }

@@ -4,8 +4,7 @@ public class DomesticCat extends CatAbstract {
 
     public DomesticCat() {
         // super keyword references immediate parent class object
-        super("domestic", 25);
-
+        super("domestic", 23);
     }
 
 }
