@@ -21,5 +21,11 @@ public abstract class CatAbstract implements Cat{
       asleep = true;
    }
 
+   @Override
+   public void wakeUp() {
+      asleep = false;
+   }
+
+
 
 }
