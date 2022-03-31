@@ -51,11 +51,11 @@ public class CatTest {
         assertEquals("Roar!!!!", lionCat.eat());
     }
 
-    //@Test
-    //public void feedTheCheetah() {
-    //    Cat cheetahCat = new CheetahCat();
-    //    assertEquals("Zzzzzzz", cheetahCat.eat());
-    //}
+    @Test
+    public void feedTheCheetah() {
+        Cat cheetahCat = new CheetahCat();
+        assertEquals("Zzzzzzz", cheetahCat.eat());
+    }
 
     //@Test
     //public void feedTheCat() {
