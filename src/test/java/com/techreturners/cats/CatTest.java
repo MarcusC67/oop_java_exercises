@@ -1,10 +1,12 @@
 package com.techreturners.cats;
 
 import org.junit.Test;
-
+import java.util.Set;
 import static org.junit.Assert.*;
 
 public class CatTest {
+
+    private static final Set<String> EATS = Set.of("Purrrrrrr", "Purrrrrrr. It will do I suppose");
 
     @Test
     public void checkCatIsAwake() {
@@ -60,7 +62,7 @@ public class CatTest {
     @Test
     public void feedTheCat() {
         Cat domesticCat = new DomesticCat();
-        //assertEquals("Purrrrrrr", domesticCat.eat());
-        assertEquals("Purrrrrrr. It will do I suppose", domesticCat.eat());
+        assert EATS.contains(domesticCat.eat());
+
     }
 }
