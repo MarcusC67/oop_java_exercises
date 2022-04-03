@@ -11,7 +11,15 @@ public class DomesticCat extends CatAbstract {
 
     @Override
     public String eat() {
-        return "Purrrrrrr";
+
+        boolean random_boolean = Math.random() < 0.5;
+        if (random_boolean) {
+            return "Purrrrrrr" + ". It will do I suppose";
+        } else {
+            return "Purrrrrrr";
+
+        }
+
     }
 
 }
